@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Akemi Ödev</title>
+</head>
+
+<body>
+    <!--Klasik olarak geliştirilmiş bir Giriş sayfasıdır ödev olarak yapılmıştır.-->
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Hesap Oluşturun</h1>
+                <span>Aşagıdaki Kısmı Doldurunuz</span>
+                <input type="text" placeholder="İsim">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Şifre">
+                <button>Kayıt ol</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Giriş yap</h1>
+<!--hiç bilginiz yok ise sadece beyaz kısımları elleyiniz-->
+                <span> Email ve Şifrenizi Giriniz.</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Şifre">
+                <a href="#">Şifrenimi Unuttun</a>
+                <button>Tıkla</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Aramıza Hoşgeldin</h1>
+                    <p>Giriş Bilgilerini Doldurup Aramıza katılabilirsin.</p>
+                    <button class="hidden" id="login">Giriş yap</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Selam Gezgin</h1>
+                    <p>Hesabın yoksa Hemen kayıt olabilirsin:)</p>
+                    <button class="hidden" id="register">Kayıt ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
