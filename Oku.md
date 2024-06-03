@@ -5,7 +5,7 @@ Hello, I'm Akemi, a 17-year-old young software enthusiast.<br>Junior Developer<b
 
 # About Projects:
 
-Giriş Sayfası
+Giriş Sayfası.
 
 
 
